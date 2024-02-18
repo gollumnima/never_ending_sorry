@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323:wght@400');
+
+.terminal {
+  width: 270px;
+  height: 270px;
+  font-family: VT323;
+  background-color: #000;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #777777;
+  height: 30px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+  &__red {
+    margin-left: 10px;
+    background-color: #FF5F56;
+  }
+
+  &__yellow {
+    background-color: #FFBD2E;
+  }
+
+  &__green {
+    background-color: #27C93F;
+  }
+
+  .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 2px;
+  }
+
+  span {
+    color: #fff;
+    margin-left: 10px;
+  }
+}
+
+.content {
+  position: relative;
+  margin-left: 10px;
+  height: calc(100% - 60px);
+
+  h1 {
+    color: #039D00;
+    font-size: 30px;
+  }
+
+  span {
+    font-size: 20px;
+  }
+
+  .count {
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    color: #fff;
+  }
+}
